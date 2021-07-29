@@ -1,0 +1,166 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+
+}
+
+header.left {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+
+header.right {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    text-align: right;
+}
+
+#prev {
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 50%;
+}
+
+#next {
+    text-decoration: none;
+    background-color:white;
+    color: black;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 50%;
+}
+
+#prev:hover , #next:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+div.container-left {
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+
+div.container-right {
+    background-color: black;
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+
+#cover-photo {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.section-name {
+    color: black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+table.contents-left {
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    table-layout: fixed;
+
+}
+
+table.contents-right {
+    background-color: black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    table-layout: fixed;
+
+}
+
+td.article-content,
+td.other-photo {
+    vertical-align: text-top;
+    width: 50%;
+
+}
+
+td.article-content {
+    border-bottom: 0.5px solid red;
+    vertical-align: top;
+}
+
+td.ads {
+    border: 0.2px dashed white;
+}
+
+div.featured {
+    height: 25vh;
+    overflow-y: scroll;
+}
+
+div.other {
+    height: 12.7vh;
+    overflow-y: scroll;
+}
+
+footer {
+    text-align: right;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#jump {
+    text-decoration: none;
+    background-color:red;
+    color: white;
+    display: inline-block;
+padding: 8px 16px;
+
+}
+
+#jump:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* For text responsiveness */
+
+h1 {
+    font-size: 3vw;
+}
+
+h2 {
+    font-size: 1.7vw;
+}
+
+h3 {
+    font-size: 1.5vw;
+}
+
+p {
+    font-size: 1vw;
+}
