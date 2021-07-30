@@ -16,21 +16,12 @@
             background-color: white;
         }
 
-        div.container {
+        .container {
             width: 100%;
             height: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
-        }
-
-        div.portal {
-            background-color: red;
-            color: white;
-            text-align: center;
-
-            margin: 5em;
-            animation: 1s infinite beatHeart;
         }
 
         @keyframes beatHeart {
@@ -60,15 +51,19 @@
             color: white;
         }
 
-        div.portal {
+        .portal {
+            background-color: red;
             text-decoration: none;
             display: inline-block;
             padding: 8px 16px;
+            box-shadow: 10px 10px;
+            animation: 5s infinite beatHeart;
 
         }
 
-        div.portal:hover {
+        .portal:hover {
             background-color: black;
+            color: red;
         }
     </style>
 
@@ -76,11 +71,11 @@
 
 <body>
     <div class="container">
-        <div class="portal">
+        <a id="jump" href="pages/about.html"><button class="portal">
             <h1>
-                <a id="jump" href="pages/about.html">O R A S</a>
+                O R A S
             </h1>
-        </div>
+        </button></a>
     </div>
 </body>
 
